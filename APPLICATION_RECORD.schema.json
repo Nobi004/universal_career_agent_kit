@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Career Agent Application Record",
+  "type": "object",
+  "required": [
+    "job_id",
+    "employer",
+    "title",
+    "source_url",
+    "decision",
+    "status"
+  ],
+  "properties": {
+    "job_id": {
+      "type": "string"
+    },
+    "employer": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "canonical_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "location": {
+      "type": "string"
+    },
+    "remote_type": {
+      "enum": [
+        "remote",
+        "hybrid",
+        "onsite",
+        "unknown"
+      ]
+    },
+    "eligible_countries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "employment_type": {
+      "type": "string"
+    },
+    "salary": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "posted_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "last_verified_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "fit_score": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 100
+    },
+    "hard_gate_results": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "evidence_mapping": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "requirement",
+          "claim_id",
+          "match_level"
+        ],
+        "properties": {
+          "requirement": {
+            "type": "string"
+          },
+          "claim_id": {
+            "type": "string"
+          },
+          "match_level": {
+            "enum": [
+              "strong",
+              "partial",
+              "none"
+            ]
+          }
+        }
+      }
+    },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "decision": {
+      "enum": [
+        "apply",
+        "hold",
+        "reject"
+      ]
+    },
+    "status": {
+      "enum": [
+        "discovered",
+        "verified",
+        "drafted",
+        "awaiting_approval",
+        "approved",
+        "submitted",
+        "screening",
+        "interview",
+        "offer",
+        "rejected",
+        "withdrawn",
+        "closed"
+      ]
+    },
+    "resume_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "cover_letter_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approval_reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "submission_confirmation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "outcome_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

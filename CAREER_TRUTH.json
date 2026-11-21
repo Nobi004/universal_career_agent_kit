@@ -1,0 +1,202 @@
+{
+  "schema_version": "1.0",
+  "candidate": {
+    "full_name": "MD. Mahmudun Nobi",
+    "location": {
+      "city": "Dhaka",
+      "country": "Bangladesh",
+      "remote_eligibility": "Must be checked per vacancy; do not assume worldwide eligibility."
+    },
+    "email": "mdmnb435@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/nobi004/",
+    "github": "https://github.com/Nobi004",
+    "portfolio": "https://mahamudunnobi.vercel.app/",
+    "phone": null,
+    "phone_status": "Not included in this package; confirm current preferred number before profile publication."
+  },
+  "career_positioning": {
+    "canonical_title": "Applied AI Engineer",
+    "headline": "Applied AI Engineer | Agentic AI & LLM Systems | Full-Stack AI Product Development",
+    "value_proposition": "Builds AI-enabled software systems that connect language models, retrieval, document intelligence, backend services, and usable product interfaces.",
+    "primary_roles": [
+      "Applied AI Engineer",
+      "AI Engineer",
+      "Generative AI Engineer",
+      "Agentic AI Engineer",
+      "Full-Stack AI Engineer"
+    ],
+    "secondary_roles": [
+      "LLM Engineer",
+      "RAG Engineer",
+      "AI Backend Engineer",
+      "AI Software Engineer",
+      "Machine Learning Engineer"
+    ],
+    "selective_roles": [
+      "Computer Vision Engineer",
+      "Research Engineer",
+      "AI Technical Lead",
+      "AI Systems Engineer"
+    ],
+    "seniority_rule": "Choose level from vacancy requirements and verified scope. Do not default to Senior, Architect, or Lead when the evidence does not support it."
+  },
+  "employment": [
+    {
+      "employer_as_confirmed": "Joint Venture AI (JVAI), under Betopia Group",
+      "title_as_confirmed": "Team Lead (Q-Bit Coders) & AI Developer",
+      "start": "2025-05",
+      "end": "2026-04",
+      "location": "Mohakhali, Dhaka, Bangladesh",
+      "employment_type": "Permanent (candidate previously described this; verify exact HR/legal employer name and entity relationship before forms requiring legal employer)",
+      "status": "Candidate-confirmed role and dates; legal entity naming and exact title formatting should be checked against employment documents.",
+      "do_not_assume_current_employment": true
+    }
+  ],
+  "education": {
+    "institution": "Faridpur Engineering College",
+    "program": "B.Sc. in Electrical & Electronic Engineering",
+    "session": "2019\u20132020",
+    "batch": "07",
+    "completion_status": "UNRESOLVED \u2014 do not state graduated or degree awarded until confirmed.",
+    "known_conflict": "Earlier material described both 4th Year / Final Stage and a 2020\u20132025 period. Confirm exact enrollment, completion, result, and award dates.",
+    "retakes_previously_mentioned": [
+      "EEE 3205",
+      "CSE 3201"
+    ]
+  },
+  "technical_capabilities": {
+    "strongly_positioned": [
+      "Python",
+      "LLM application development",
+      "RAG",
+      "LangGraph",
+      "agent workflows",
+      "OCR/document AI",
+      "backend/API development",
+      "AI product integration"
+    ],
+    "additional_candidate_claims_to_validate": [
+      "LangChain",
+      "OpenAI API",
+      "Gemini/Vertex AI",
+      "FAISS",
+      "PaddleOCR",
+      "LayoutLMv3",
+      "PyTorch",
+      "TensorFlow",
+      "OpenCV",
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Django",
+      "FastAPI",
+      "Flutter",
+      "Go",
+      "Docker",
+      "AWS",
+      "Kubernetes",
+      "Azure",
+      "Whisper",
+      "ElevenLabs",
+      "Vapi",
+      "n8n",
+      "Make",
+      "Zapier",
+      "Prometheus",
+      "Grafana"
+    ],
+    "rule": "A skill may appear in a profile only if the candidate can explain a concrete use case, depth, and recency. Distinguish production use, project use, academic use, and familiarity."
+  },
+  "projects": [
+    {
+      "name": "Voice Mind",
+      "description": "Voice-oriented RAG assistant using embeddings and FAISS.",
+      "reported_outcome": "1,000+ installs in the first 7 days",
+      "claim_status": "Candidate-reported; verify Play Store listing, analytics period, ownership/contribution, and whether installs or downloads are the correct metric.",
+      "public_evidence": "Portfolio and store evidence should be added when confirmed."
+    },
+    {
+      "name": "ACORD 25/101 document intelligence pipeline",
+      "description": "Insurance certificate extraction pipeline described as PaddleOCR, fine-tuned LayoutLMv3, graph-based modeling (Graph Attention / GraphSAGE terminology requires reconciliation), schema validation, confidence routing, and human review.",
+      "claim_status": "Candidate-reported; confirm architecture, exact model, personal contribution, deployment status, and public demo/repository."
+    },
+    {
+      "name": "Natural-language business-data agent",
+      "description": "LangGraph-based workflow translating natural-language requests into structured business-data access, intended to let nontechnical users query business information conversationally.",
+      "claim_status": "Candidate-reported; confirm production scope, data sources, guardrails, users, and measurable outcomes."
+    },
+    {
+      "name": "AURA / Adaptive Intelligence Research Lab",
+      "description": "Offline/local AI agent runtime project; prior notes describe v0.1.0 Runtime Core as complete and immutable, with later work planned.",
+      "claim_status": "Do not claim production adoption, throughput, or public availability without evidence."
+    },
+    {
+      "name": "CareerOS",
+      "description": "Personalized job discovery and career workspace, evolved from Job_apply_agent; includes job matching, JD analysis, tailored resume generation, and application workflow.",
+      "repository": "https://github.com/Nobi004/Job_apply_agent",
+      "live": "https://careeros-app.azurewebsites.net/",
+      "claim_status": "Candidate project; describe shipped capabilities only after checking current live deployment and repository."
+    },
+    {
+      "name": "Portfolio website",
+      "live": "https://mahamudunnobi.vercel.app/",
+      "repository": "https://github.com/Nobi004/portfolio-live",
+      "claim_status": "Public portfolio; only published and verified content should be referenced."
+    }
+  ],
+  "research": [
+    {
+      "title": "An Interpretable Attention-Guided Hybrid Framework for Power Line Insulator Fault Detection",
+      "publisher": "IEEE",
+      "url": "https://ieeexplore.ieee.org/document/11583598",
+      "methods_as_previously_described": "VGG16 and Dilation DenseNet Block",
+      "status": "Publication record previously identified; verify author metadata, publication date, exact title, and contribution before using detailed claims."
+    },
+    {
+      "title": "WBFVD UNet true-to-color white-background fruits/vegetables colorization",
+      "venue_context": "NCIM-2025",
+      "status": "Candidate-reported; verify proceedings/publication URL, exact title, author list, and status."
+    },
+    {
+      "topic": "EEG-based Parkinson's research / thesis",
+      "dataset_reference": "ds004584",
+      "tools_as_previously_described": [
+        "MNE",
+        "TensorFlow",
+        "PyTorch",
+        "XAI / Grad-CAM"
+      ],
+      "status": "Academic work; verify thesis title, completion status, dataset usage, and individual contribution."
+    }
+  ],
+  "leadership": {
+    "team": "Q-Bit Coders",
+    "reported_team_size": "30+ developers",
+    "reported_scope": "Team leadership, reviews, mentoring, and coordination; handled two additional teams in a night-shift leadership context.",
+    "reported_delivery": "20+ projects and approximately USD 250,000 total project value for JVAI.",
+    "claim_status": "High-impact claims requiring attribution and documentary or employer confirmation. Do not imply sole revenue generation or sole delivery."
+  },
+  "career_preferences": {
+    "primary_market": "Global remote AI/software roles, including Bangladesh-eligible remote opportunities.",
+    "secondary_market": "Bangladesh-based roles and remote roles across South Asia / Southeast Asia where legally and operationally eligible.",
+    "work_mode": [
+      "Remote",
+      "Hybrid",
+      "On-site only when explicitly suitable"
+    ],
+    "availability": "Previously stated immediate availability in October 2026; refresh before use because it may have changed.",
+    "compensation": "Not specified \u2014 never invent or submit a number without candidate approval.",
+    "relocation": "Unknown \u2014 ask before representing willingness to relocate.",
+    "visa_work_authorization": "Unknown \u2014 do not infer authorization outside Bangladesh.",
+    "excluded_employer": "Brainify Technology \u2014 explicitly exclude from resumes and job-search materials unless the candidate reverses this instruction."
+  },
+  "integrity_rules": [
+    "Never invent employers, dates, titles, degrees, certifications, skills, metrics, publications, clients, revenue attribution, or work authorization.",
+    "Do not present a candidate-reported metric as independently verified.",
+    "Do not describe a prototype as production software unless production deployment and usage are established.",
+    "Do not claim sole ownership of team outcomes or company revenue.",
+    "Do not list Brainify Technology in resumes or application materials.",
+    "Do not claim current employment at JVAI; the confirmed period currently ends April 2026.",
+    "When a form asks for a fact not in this file, stop and ask rather than guess."
+  ]
+}
